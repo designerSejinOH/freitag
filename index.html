@@ -2,86 +2,41 @@
 <html lang="en">
 
 <head>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>freitag</title>
-  <script type="text/javascript">
-    var _showPage = function() {
-    var loader = $("div.loader");
-    var container = $("div.container");
-    loader.css("display","none");
-    container.css("display","block");
-    };
-  </script>
-  <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      text-align: center;
-    }
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>freitag</title>
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
 
-    canvas {
-      display: block;
-    }
+		canvas {
+			display: block;
+		}
 
-    .box {
-      display: block;
-      position: fixed;
-      height: 60px;
-      width: 400px;
-      top: 90px;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+		.box {
+			display: block;
+			position: fixed;
+			height: 60px;
+			width: 400px;
+			top: 90px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
 
-.loader {
-position: absolute;
-left: 50%;
-top: 50%;
-z-index: 1;
-width: 150px;
-height: 150px;
-margin: -75px 0 0 -75px;
-border: 16px solid #f3f3f3;
-border-radius: 50%;
-border-top: 16px solid black;
-width: 120px;
-height: 120px;
--webkit-animation: spin 2s linear infinite;
-animation: spin 2s linear infinite;
-}
-
-
-@-webkit-keyframes spin {
-0% { -webkit-transform: rotate(0deg); }
-100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-0% { transform: rotate(0deg); }
-100% { transform: rotate(360deg); }
-}
-    /* .box:active{
+		/* .box:active{
 
 } */
-  </style>
+	</style>
 </head>
 
 <body>
-<div class="loader">
-</div>
-
-<div class="container" style="display:none;">
-  <h1>로딩 후 화면</h1>
-</div>
-
-  <a href="index.html">
-    <div class="box"></div>
-  </a>
-  <script src="sketch.js"></script>
-</body>
-
-</html>
+	<a href="index.html">
+		<div class="box"></div>
+	</a>
+	<script src="sketch.js"></script>
+</body></html>
