@@ -2,35 +2,43 @@
 <html lang="en">
 
 <head>
-  		<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-    <style>
-      html,
-      body {
-        margin: 0;
-        padding: 0;
-        			font-family: 'Jost';
+	<link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css" type="text/css" charset="utf-8" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>freitag</title>
+	<style>
+		html,
+		body {
+			margin: 0;
+			padding: 0;
+			text-align: center;
+		}
 
-      }
-h1{
-  position: absolute;
-  top:5px;
-  left:30px;
-}
-      canvas {
-        display: block;
-      }
-    </style>
+		canvas {
+			display: block;
+		}
+
+		.box {
+			display: block;
+			position: fixed;
+			height: 60px;
+			width: 400px;
+			top: 90px;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+
+		/* .box:active{
+
+} */
+	</style>
 </head>
 
 <body>
-  <h1>FREITAG</h1>
-  <script src="sketch.js"></script>
-</body>
-
-</html>
+	<a href="index.html">
+		<div class="box"></div>
+	</a>
+	<script src="sketch.js"></script>
+</body></html>
