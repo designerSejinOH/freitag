@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="libraries/p5.min.js"></script>
+	<script src="libraries/p5.dom.min.js"></script>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freitag cutting tarps</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+	canvas {
+	position: absolute;
+	display: block;
+	top: 50%;
+	left: 50%;
+	width: 1280px;
+	height: 720px;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+
+	}
+
+   .box1 {
+   display: block;
+   position: absolute;
+   height: 50px;
+   width: 50px;
+   top: 50%;
+   transform: translateY(-25%);
+   right: 10%;
+   border: solid black;
+   z-index: 2;
+   }
+
+   .box2 {
+   display: block;
+   position: absolute;
+   height: 50px;
+   width: 50px;
+   top: 50%;
+   transform: translateY(-25%);
+   left: 10%;
+   border: solid black;
+   z-index: 2;
+   }
+
+    /* .box:active{
+
+} */
+  </style>
+</head>
+
+<body>
+  <a href="3.html">
+    <div class="box1"></div>
+  </a>
+   <a href="1.html">
+     <div class="box2"></div>
+   </a>
+  <script src="scene2.js"></script>
+</body>
+
+</html>
